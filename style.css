@@ -1,0 +1,75 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    background-color: black;
+    color: white;
+}
+
+#content {
+    text-align: center;
+}
+
+#calculate {
+    font-size: 20px;
+    border: 10px white solid;
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    filter: drop-shadow(0px 0px 5px white);
+    transition: transform 0.2s ease, filter 0.3s ease;
+    display: block;
+    margin: 0 auto 10px auto;  /* Center horizontally and add bottom margin */
+}
+
+#calculate:hover {
+    transform: scale(1.1, 1.1);
+    filter: drop-shadow(0px 0px 15px white);
+}
+
+#calculate:active {
+    transform: scale(0.95);
+}
+
+#advanced {
+    font-size: 12px;
+    border: 10px white solid;
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    filter: drop-shadow(0px 0px 10px white);
+    transition: transform 0.2s ease, filter 0.3s ease;
+    display: block;
+    margin: 0 auto 10px auto;  /* Center horizontally and add bottom margin */
+}
+
+#advanced:hover {
+    transform: scale(1.1, 1.1);
+    filter: drop-shadow(0px 0px 15px white);
+}
+
+#advanced:active {
+    transform: scale(0.95);
+}
+
+#result {
+    padding: 50px;
+    font-size: 60px;
+}
+
+a:link {
+    color: aqua;
+}
+
+a:visited {
+    color: aqua;
+}
+
+a:hover {
+    color: rgb(216, 255, 255);
+}
+
+a:active {
+  color: aqua;
+}
