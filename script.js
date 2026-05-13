@@ -75,6 +75,7 @@ async function btn_press(){
     result.innerHTML = "Dobpergés...";
     //let city = await get_ip();
     let temp = await get_temp();
+    console.log(temp);
     setTimeout(() => {
         result.innerHTML = calculate_sub(temp);
       }, 1000);
